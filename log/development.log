@@ -1,0 +1,577 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 09:39:58) [GET]
+
+ActionController::RoutingError (No route matches "/wssavon" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 09:40:19) [GET]
+
+ActionController::RoutingError (No route matches "/consworks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:40:23) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 09:43:46) [GET]
+
+NameError (uninitialized constant ConsworkController::Savon):
+  app/controllers/conswork_controller.rb:5
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:44:18) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:44:35) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:45:22) [GET]
+Completed in 248ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:45:55) [GET]
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/conswork_controller.rb:9:in `soap_actions'
+  app/controllers/conswork_controller.rb:9:in `index'
+
+Rendered rescues/_trace (50.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:46:17) [GET]
+Completed in 229ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:46:56) [GET]
+
+NoMethodError (undefined method `ghc_generic_function' for #<Savon::WSDL:0x7f54d84f47d0>):
+  app/controllers/conswork_controller.rb:9:in `index'
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:47:05) [GET]
+Completed in 453ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:47:13) [GET]
+Completed in 308ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:47:24) [GET]
+Completed in 473ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:47:26) [GET]
+Completed in 324ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:48:54) [GET]
+Completed in 291ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:49:05) [GET]
+Completed in 308ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:49:20) [GET]
+Completed in 332ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:51:44) [GET]
+Completed in 331ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:51:46) [GET]
+Completed in 387ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:51:59) [GET]
+
+NameError (undefined local variable or method `param' for #<ConsworkController:0x7f54d84d2d10>):
+  app/controllers/conswork_controller.rb:12:in `index'
+  savon (0.7.9) lib/savon/client.rb:125:in `yield_objects'
+  savon (0.7.9) lib/savon/client.rb:116:in `setup_objects'
+  savon (0.7.9) lib/savon/client.rb:94:in `method_missing'
+  app/controllers/conswork_controller.rb:12:in `index'
+
+Rendered rescues/_trace (44.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:52:01) [GET]
+
+NameError (undefined local variable or method `param' for #<ConsworkController:0x7f54d825f2e0>):
+  app/controllers/conswork_controller.rb:12:in `index'
+  savon (0.7.9) lib/savon/client.rb:125:in `yield_objects'
+  savon (0.7.9) lib/savon/client.rb:116:in `setup_objects'
+  savon (0.7.9) lib/savon/client.rb:94:in `method_missing'
+  app/controllers/conswork_controller.rb:12:in `index'
+
+Rendered rescues/_trace (141.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:52:15) [GET]
+Completed in 315ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:52:28) [GET]
+
+NoMethodError (undefined method `soap' for #<Savon::Client:0x7f54d842edc8>):
+  savon (0.7.9) lib/savon/client.rb:92:in `method_missing'
+  app/controllers/conswork_controller.rb:12:in `index'
+  savon (0.7.9) lib/savon/client.rb:125:in `yield_objects'
+  savon (0.7.9) lib/savon/client.rb:116:in `setup_objects'
+  savon (0.7.9) lib/savon/client.rb:94:in `method_missing'
+  app/controllers/conswork_controller.rb:12:in `index'
+
+Rendered rescues/_trace (76.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 09:53:11) [GET]
+
+SyntaxError (/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:12: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+... |soap| soap.body = { render :text => soap }
+                              ^):
+  
+
+Rendered rescues/_trace (144.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 09:53:43) [GET]
+
+SyntaxError (/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:12: odd number list for Hash
+/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:16: syntax error, unexpected kEND, expecting '}'):
+  
+
+Rendered rescues/_trace (73.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:54:15) [GET]
+Completed in 304ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 09:59:30) [GET]
+
+Savon::HTTPError (Method not allowed (405): <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html dir=ltr>
+
+<head>
+<style>
+a:link			{font:8pt/11pt verdana; color:FF0000}
+a:visited		{font:8pt/11pt verdana; color:#4e4e4e}
+</style>
+
+<META NAME="ROBOTS" CONTENT="NOINDEX">
+
+<title>The page cannot be displayed</title>
+
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+</head>
+
+<script> 
+function Homepage(){
+<!--
+// in real bits, urls get returned to our script like this:
+// res://shdocvw.dll/http_404.htm#http://www.DocURL.com/bar.htm 
+
+	//For testing use DocURL = "res://shdocvw.dll/http_404.htm#https://www.microsoft.com/bar.htm"
+	DocURL=document.URL;
+	
+	//this is where the http or https will be, as found by searching for :// but skipping the res://
+	protocolIndex=DocURL.indexOf("://",4);
+	
+	//this finds the ending slash for the domain server 
+	serverIndex=DocURL.indexOf("/",protocolIndex + 3);
+
+	//for the href, we need a valid URL to the domain. We search for the # symbol to find the begining 
+	//of the true URL, and add 1 to skip it - this is the BeginURL value. We use serverIndex as the end marker.
+	//urlresult=DocURL.substring(protocolIndex - 4,serverIndex);
+	BeginURL=DocURL.indexOf("#",1) + 1;
+	urlresult=DocURL.substring(BeginURL,serverIndex);
+		
+	//for display, we need to skip after http://, and go to the next slash
+	displayresult=DocURL.substring(protocolIndex + 3 ,serverIndex);
+	InsertElementAnchor(urlresult, displayresult);
+}
+
+function HtmlEncode(text)
+{
+    return text.replace(/&/g, '&amp').replace(/'/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function TagAttrib(name, value)
+{
+    return ' '+name+'="'+HtmlEncode(value)+'"';
+}
+
+function PrintTag(tagName, needCloseTag, attrib, inner){
+    document.write( '<' + tagName + attrib + '>' + HtmlEncode(inner) );
+    if (needCloseTag) document.write( '</' + tagName +'>' );
+}
+
+function URI(href)
+{
+    IEVer = window.navigator.appVersion;
+    IEVer = IEVer.substr( IEVer.indexOf('MSIE') + 5, 3 );
+
+    return (IEVer.charAt(1)=='.' && IEVer >= '5.5') ?
+        encodeURI(href) :
+        escape(href).replace(/%3A/g, ':').replace(/%3B/g, ';');
+}
+
+function InsertElementAnchor(href, text)
+{
+    PrintTag('A', true, TagAttrib('HREF', URI(href)), text);
+}
+
+//-->
+</script>
+
+<body bgcolor="FFFFFF">
+
+<table width="410" cellpadding="3" cellspacing="5">
+
+  <tr>   
+    <td align="left" valign="middle" width="360">
+	<h1 style="COLOR:000000; FONT: 13pt/15pt verdana"><!--Problem-->The page cannot be displayed</h1>
+    </td>
+  </tr>
+  
+  <tr>
+    <td width="400" colspan="2">
+	<font style="COLOR:000000; FONT: 8pt/11pt verdana">The page you are looking for cannot be displayed because the page address is incorrect.</font> </td>
+  </tr>
+  
+  <tr>
+    <td width="400" colspan="2">
+	<font style="COLOR:000000; FONT: 8pt/11pt verdana">
+
+	<hr color="#C0C0C0" noshade>
+	
+    <p>Please try the following:</p>
+
+	<ul>
+      <li>If you typed the page address in the Address bar, check that it is entered correctly.<br>
+      </li>
+	  
+       <li>Open the 
+	   
+	   <script>
+	   <!--
+	   if (!((window.navigator.userAgent.indexOf("MSIE") > 0) && (window.navigator.appVersion.charAt(0) == "2")))
+	   {
+	   	 Homepage();
+	   }
+	   //-->
+	   </script>
+
+	   home page and then look for links to the information you want.</li>
+    </ul>
+    
+    <h2 style="COLOR:000000; FONT: 8pt/11pt verdana">HTTP 405 - Resource not
+    allowed<br>
+    Internet Information Services</h2>
+	
+	<hr color="#C0C0C0" noshade>
+	
+	<p>Technical Information (for support personnel)</p>
+	
+<ul>
+<li>More information:<br>
+<a href="http://www.microsoft.com/ContentRedirect.asp?prd=iis&sbp=&pver=5.0&pid=&ID=405&cat=web&os=&over=&hrd=&Opt1=&Opt2=&Opt3=" target="_blank">Microsoft Support</a>
+</li>
+</ul> 
+
+    </font></td>
+  </tr>
+  
+</table>
+</body>
+</html>
+):
+  savon (0.7.9) lib/savon/response.rb:168:in `handle_http_error'
+  savon (0.7.9) lib/savon/response.rb:82:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:11:in `index'
+
+Rendered rescues/_trace (150.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:00:33) [GET]
+Completed in 342ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:00:56) [GET]
+Completed in 355ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:01:20) [GET]
+Completed in 282ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:01:44) [GET]
+Completed in 312ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:02:59) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  savon (0.7.9) lib/savon/wsdl.rb:117:in `operation_from'
+  savon (0.7.9) lib/savon/client.rb:94:in `method_missing'
+  app/controllers/conswork_controller.rb:13:in `index'
+
+Rendered rescues/_trace (77.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:06:00) [GET]
+
+Savon::SOAPFault ((soap:Client) Server did not recognize the value of HTTP Header SOAPAction: post.):
+  savon (0.7.9) lib/savon/response.rb:141:in `handle_soap_fault'
+  savon (0.7.9) lib/savon/response.rb:81:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:15:in `index'
+
+Rendered rescues/_trace (80.2ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:06:30) [GET]
+
+Savon::SOAPFault ((soap:Client) Server did not recognize the value of HTTP Header SOAPAction: post.):
+  savon (0.7.9) lib/savon/response.rb:141:in `handle_soap_fault'
+  savon (0.7.9) lib/savon/response.rb:81:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:15:in `index'
+
+Rendered rescues/_trace (136.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:06:32) [GET]
+
+Savon::SOAPFault ((soap:Client) Server did not recognize the value of HTTP Header SOAPAction: post.):
+  savon (0.7.9) lib/savon/response.rb:141:in `handle_soap_fault'
+  savon (0.7.9) lib/savon/response.rb:81:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:15:in `index'
+
+Rendered rescues/_trace (81.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:06:59) [GET]
+
+Savon::SOAPFault ((soap:Client) Server did not recognize the value of HTTP Header SOAPAction: get.):
+  savon (0.7.9) lib/savon/response.rb:141:in `handle_soap_fault'
+  savon (0.7.9) lib/savon/response.rb:81:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:15:in `index'
+
+Rendered rescues/_trace (172.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:07:01) [GET]
+
+Savon::SOAPFault ((soap:Client) Server did not recognize the value of HTTP Header SOAPAction: get.):
+  savon (0.7.9) lib/savon/response.rb:141:in `handle_soap_fault'
+  savon (0.7.9) lib/savon/response.rb:81:in `initialize'
+  savon (0.7.9) lib/savon/client.rb:95:in `new'
+  savon (0.7.9) lib/savon/client.rb:95:in `method_missing'
+  app/controllers/conswork_controller.rb:15:in `index'
+
+Rendered rescues/_trace (77.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:11:52) [GET]
+
+SyntaxError (/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:29: syntax error, unexpected '='
+	@client || = Savon::Client.new "http://wor...
+	            ^):
+  
+
+Rendered rescues/_trace (67.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:12:27) [GET]
+
+SyntaxError (/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:29: syntax error, unexpected '='
+	@@client || = Savon::Client.new "http://wor...
+	             ^):
+  
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:12:59) [GET]
+
+SyntaxError (/home/administrador/railsprojects/wssavon/app/controllers/conswork_controller.rb:20: syntax error, unexpected '='
+	@client || = Savon::Client.new "http://wor...
+	            ^):
+  
+
+Rendered rescues/_trace (53.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:13:20) [GET]
+
+ActionView::MissingTemplate (Missing template conswork/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:15:07) [GET]
+
+MissingSourceFile (no such file to load -- soap4r):
+  app/controllers/conswork_controller.rb:3
+
+Rendered rescues/_trace (124.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:17:36) [GET]
+
+MissingSourceFile (no such file to load -- soap4r):
+  app/controllers/conswork_controller.rb:3
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:17:40) [GET]
+
+MissingSourceFile (no such file to load -- soap4r):
+  app/controllers/conswork_controller.rb:3
+
+Rendered rescues/_trace (160.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:17) [GET]
+Completed in 378ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  savon (0.7.9) lib/savon/wsdl.rb:117:in `operation_from'
+  savon (0.7.9) lib/savon/client.rb:94:in `method_missing'
+  app/controllers/conswork_controller.rb:17:in `index'
+
+Rendered rescues/_trace (82.2ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:52) [GET]
+Completed in 301ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:54) [GET]
+Completed in 309ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:55) [GET]
+Completed in 321ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:20:55) [GET]
+Completed in 284ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:21:01) [GET]
+Completed in 318ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:21:02) [GET]
+Completed in 294ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:21:26) [GET]
+
+MissingSourceFile (no such file to load -- soap4r):
+  app/controllers/conswork_controller.rb:4
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:21:43) [GET]
+Completed in 329ms (View: 1, DB: 0) | 200 OK [http://localhost/conswork]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-10 10:28:21) [GET]
+
+NameError (undefined local variable or method `r' for ConsworkController:Class):
+  app/controllers/conswork_controller.rb:3
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ConsworkController#index (for 127.0.0.1 at 2010-08-10 10:28:48) [GET]
+
+NameError (uninitialized constant ConsworkController::ActionWebService):
+  app/controllers/conswork_controller.rb:20:in `index'
+
+Rendered rescues/_trace (132.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
